@@ -44,7 +44,7 @@ function App() {
         </h1>
       )}
       {loading ? (
-        <button className="card__button disabled" disabled>
+        <button className="card__button" disabled>
           Next
         </button>
       ) : (
