@@ -16,6 +16,5 @@ npm 6.9.0
 - Instale as dependências usando o comando ```npm install``` 
 - Para rodar o projeto localmente, use o comando ```npm start``` e veja-o em http://localhost:3000/
 
-## Demo
+# [Live Demo](https://starwarsplanets.netlify.com/) 
 
-![Demo](https://i.imgur.com/CCE3vrO.gif)
