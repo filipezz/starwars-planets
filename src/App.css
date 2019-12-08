@@ -42,7 +42,7 @@ html {
   font-family: "StarJedi", arial;
   letter-spacing: 0.5vw;
   color: black;
-  -webkit-text-stroke: 0.1px #ffe300;
+  -webkit-text-stroke: 1px #ffe300;
   font-size: 7vw;
   margin: 0;
 }
@@ -76,12 +76,8 @@ html {
   color: #D8000C;
   
 }
-.card__button:disabled {
-  cursor: not-allowed;
-  opacity: 50%;
-  background-color: rgb(22, 22, 22);
-  border: solid yellow 3px;
-  color: #f3f3f3;
+.disabled {
+  opacity: 30%;
 }
 @media (max-width:768px){
   .card__title{
