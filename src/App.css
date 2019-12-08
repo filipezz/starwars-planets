@@ -76,12 +76,14 @@ html {
   color: #D8000C;
   
 }
-.disabled {
-  opacity: 30%;
+.card__button:disabled {
+  border: solid rgb(20, 20, 20) 3px;
+  background-color: rgb(53, 53, 53);
+  color:black
 }
 @media (max-width:768px){
   .card__title{
-    font-size:14vw
+    font-size:13vw
   }
   .card__content{
     font-size:4vw
